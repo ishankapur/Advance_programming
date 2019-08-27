@@ -440,6 +440,9 @@ class Game implements game_func{
                 System.out.println("invalid input now monster will attack");
             }
             hero.setNo_of_moves(hero.getNo_of_moves()+1);
+            if (special && hero.getSpecial_move()==1){
+                hero.setAttack_damage(hero.getAttack_damage()-5);
+            }
             System.out.println("Your Hp: "+hero.getHP()+"/"+hero.getMax_HP()+" Monsters Hp: "+m.getHP()+"/"+m.getMax_HP());
             if (m.getHP()<=0){
 
@@ -469,7 +472,6 @@ class Game implements game_func{
             }
             System.out.println("Your Hp: "+hero.getHP()+"/"+hero.getMax_HP()+" Monsters Hp: "+m.getHP()+"/"+m.getMax_HP());
             if (special && hero.getSpecial_move()==1){
-                hero.setAttack_damage(hero.getAttack_damage()-5);
                 hero.setDefense(0);
             }
 

@@ -1,7 +1,7 @@
 # Advance_programming JAVA and OOPs mini projects
 Repository containg 7 java assignments I completed for the Advanced Programming course. Indepth description of each of the projects can be found in their respective folders. Please refer to the question.pdf for further clarification.
 
-#Repository contains the following projects
+# Repository contains the following projects
  - Assignment 1: Placements at IIIT Delhi. Elementary JAVA based menu driven program.
  - Assignment 2: E-commerce Platform. Implementation uses interfaces in JAVA and concept of polymorphism.
  - Assignment 3: Game ArchLegends. Implementation uses concept of abstract classes and polymorphism.
@@ -10,7 +10,7 @@ Repository containg 7 java assignments I completed for the Advanced Programming 
  - Assignment 6: Race Track. Extension of previous assignment. Implementation focues on Serilization/Derialization of Object along with tesing using JUnit Testing.
  - Assignment 7: Fibonnaci Number. Calculates nth Fibonnaci number using Multithreading and with the help of ForkJoinPool, while implementing Design patterns like Facade, Flywieght and Observer.
 
-#Dependencies and Miscellaneous Information
+# Dependencies and Miscellaneous Information
  - JAVA 11
  - IntelliJ
  - JUnit
